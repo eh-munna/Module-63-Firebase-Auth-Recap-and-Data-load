@@ -1,7 +1,11 @@
 import React from 'react';
 
 const LeftSide = () => {
-  return <div>left side</div>;
+  return (
+    <div>
+      <h5>Left Side</h5>
+    </div>
+  );
 };
 
 export default LeftSide;
