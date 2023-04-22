@@ -23,3 +23,5 @@
 - How to install moment js and exploring
 
 ## 62-5 React Marquee and Responsive NavBar
+
+## 62-6 Implement Right Side Component and react ions
