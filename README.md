@@ -1,5 +1,3 @@
-"# Module-62-Recap-with-a-Responsive-React-Website"
-
 # Module-62-Recap-with-a-Responsive-React-Website
 
 ## 62-1 Recap Concepts of React, Router, Auth
@@ -30,3 +28,10 @@
 
 - How to install the server and connect the server
 - Have to use **middleware** to connect another port
+
+# Module-63-Firebase-Auth-Recap-and-Data-load
+
+## 63-1 Recap and Route and new layout setup
+
+- **useParams()** this hook allows us to get the dynamic url
+- Created another layout for displaying news'

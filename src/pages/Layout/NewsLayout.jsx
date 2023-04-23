@@ -2,21 +2,16 @@ import React from 'react';
 import Header from '../Shared/Header/Header';
 import Footer from '../Shared/Footer/Footer';
 import { Col, Container, Row } from 'react-bootstrap';
-import LeftSide from '../Shared/LeftSide/LeftSide';
-import MainContent from '../MainContent/MainContent';
+
 import RightSide from '../Shared/RightSide/RightSide';
 import { Outlet } from 'react-router-dom';
-
-const Layout = () => {
+const NewsLayout = () => {
   return (
     <div>
       <Header />
       <Container className="mx-auto">
         <Row>
-          <Col md={3}>
-            <LeftSide />
-          </Col>
-          <Col md={6}>
+          <Col md={9}>
             <Outlet></Outlet>
           </Col>
           <Col md={3}>
@@ -29,4 +24,4 @@ const Layout = () => {
   );
 };
 
-export default Layout;
+export default NewsLayout;

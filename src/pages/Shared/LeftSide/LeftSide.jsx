@@ -15,7 +15,7 @@ const LeftSide = () => {
       {categories.map((category) => (
         <p key={category.id}>
           <Link
-            to={`/category/${category.id}`}
+            to={`/categories/${category.id}`}
             className="text-decoration-none"
           >
             {category.name}
