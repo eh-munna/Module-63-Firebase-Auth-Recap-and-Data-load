@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const LeftSide = () => {
   const [categories, setCategories] = useState([]);
@@ -10,7 +11,17 @@ const LeftSide = () => {
   console.log(categories);
   return (
     <div>
-      <h5>Left Side</h5>
+      <h5>All Category</h5>
+      {categories.map((category) => (
+        <p key={category.id}>
+          <Link
+            to={`/category/${category.id}`}
+            className="text-decoration-none"
+          >
+            {category.name}
+          </Link>
+        </p>
+      ))}
     </div>
   );
 };
