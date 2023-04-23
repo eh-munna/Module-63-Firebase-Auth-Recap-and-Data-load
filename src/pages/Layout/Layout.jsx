@@ -3,7 +3,6 @@ import Header from '../Shared/Header/Header';
 import Footer from '../Shared/Footer/Footer';
 import { Col, Container, Row } from 'react-bootstrap';
 import LeftSide from '../Shared/LeftSide/LeftSide';
-import MainContent from '../MainContent/MainContent';
 import RightSide from '../Shared/RightSide/RightSide';
 import { Outlet } from 'react-router-dom';
 

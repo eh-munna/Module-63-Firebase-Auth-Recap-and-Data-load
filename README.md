@@ -35,3 +35,9 @@
 
 - **useParams()** this hook allows us to get the dynamic url
 - Created another layout for displaying news'
+
+## 63-2 Create News and category data loading API
+
+- sending data from server side to the client side
+
+[ServerSideGitRepo](https://github.com/eh-munna/news-dragon-server)
