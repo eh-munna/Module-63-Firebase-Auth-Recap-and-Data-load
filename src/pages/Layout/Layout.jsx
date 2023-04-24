@@ -5,11 +5,13 @@ import { Col, Container, Row } from 'react-bootstrap';
 import LeftSide from '../Shared/LeftSide/LeftSide';
 import RightSide from '../Shared/RightSide/RightSide';
 import { Outlet } from 'react-router-dom';
+import NavigationBar from '../Shared/NavigationBar/NavigationBar';
 
 const Layout = () => {
   return (
     <div>
       <Header />
+      <NavigationBar></NavigationBar>
       <Container className="mx-auto">
         <Row>
           <Col md={3}>
