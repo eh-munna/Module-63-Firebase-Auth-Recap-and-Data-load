@@ -40,4 +40,6 @@
 
 - sending data from server side to the client side
 
+## 63-3 Load news category data from server
+
 [ServerSideGitRepo](https://github.com/eh-munna/news-dragon-server)
