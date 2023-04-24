@@ -18,7 +18,7 @@ const Header = () => {
       <div className="d-flex bg-light p-2 rounded-1">
         <Button className="rounded-0" variant="danger">
           Latest
-        </Button>{' '}
+        </Button>
         <Marquee pauseOnHover gradient={false} className="bg-transparent">
           I can be a React component, multiple React components, or just some
           text.
